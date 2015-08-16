@@ -1,0 +1,127 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,600);
+
+/* Reset CSS */
+* {
+	padding:0; margin:0; font-size:1em;
+}
+
+body {
+	background-color: #E5E5E5;
+}
+
+header {
+	background-image: url("/public/images/wires-tiled-fade-down-small.png"), radial-gradient(#65D26A, #4CAF50);
+	background-position: top;
+	background-repeat: repeat-x;
+	box-shadow: 0px 3px 10px #000000;
+
+	height: 200px;
+}
+
+header p {
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 75px;
+	text-align: center;
+
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+header p span.orange {
+	color: #ffbf62;
+}
+
+div.cardCollection {
+
+	margin-top: 15px;
+
+	text-align: center;
+
+	width: 100%;
+}
+
+div.card {
+	margin: 15px;
+	padding: 15px;
+
+	border-radius: 5px;
+
+	max-width: 300px;
+
+	box-shadow: 1px 1px 5px #555555;
+
+	background-color: #FFFFFF;
+
+	font-family: 'Open Sans', sans-serif;
+
+	display: inline-block;
+}
+
+div.card.superCard {
+	border-radius: 5px;
+
+	box-shadow: 0px 0px 5px #555555;
+
+	background-color: #FFFFFF;
+
+	max-width: none;
+}
+
+div.card p.title {
+	font-size: 24px;
+	text-align: center;
+
+	margin-bottom: 10px;
+}
+
+div.card p.body {
+	margin-top: 20px;
+
+	font-size: 16px;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+div.button {
+	min-width: 100px;
+
+	display: inline-block;
+
+	box-shadow: 1px 1px 3px #555555;
+
+	background-color: #FF9800;
+
+	border-radius: 2px;
+
+	transition: background-color 0.5s, box-shadow 0.5s;
+}
+
+div.button:hover {
+	background-color: #FFB447;
+
+	box-shadow: 3px 3px 10px #555555;
+
+	transition: background-color 0.5s, box-shadow 0.5s;
+}
+
+div.button:active {
+	background-color: #FFB447;
+
+	box-shadow: 1px 1px 3px #555555;
+}
+
+div.button p {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #FFFFFF;
+}
